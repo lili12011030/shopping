@@ -1,0 +1,286 @@
+#detail{
+    overflow: hidden;
+    padding-bottom:50px; 
+}
+
+#detail .goshop{
+    margin-top: 22px;
+    color: #a9a9a9;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 18px;
+}
+#detail  .picture{
+    margin-right: 60px;
+    position: relative;
+    float: left;
+}
+#detail .picture .box{
+    position: relative;
+    width: 440px;
+    height: 440px;
+    box-sizing: border-box;
+    border: 1px solid #e2e6ef;
+}
+#detail .picture .box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#detail .picture .main .minpig{
+    width: 438px;
+    height: 438px;
+}
+#detail .goods{
+    width: 700px;
+    float: left;
+}
+#detail .goods h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1;
+    margin: 0 0 20px 0;
+}
+#detail .goods h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    color: #666;
+    margin-bottom: 20px;
+}
+#detail .goods .goods-detail{
+    padding: 10px 10px 10px 20px;
+    width: 700px;
+    border: 1px dashed red;
+    border-top: 3px solid red;
+    background: #fffafb;
+}
+.fl{
+    float: left;
+}
+#detail .goods .goods-detail .top {
+    color: red;
+    margin-bottom: 28px;
+    margin-top: 2px;
+}
+#detail .goods .goods-detail .top .rmb {
+    font-size: 24px;
+    margin-right: -2px;
+}
+#detail .goods .goods-detail .top .money {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin-right: 10px;
+    font-family: "Arial Bold";
+}
+#detail .goods .goods-detail .top .sale {
+    display: inline-block;
+    width: 68px;
+    height: 24px;
+    background: url(https://www.ttcj.tv/css/pc/images/goods_detail/border_rec.png);
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    vertical-align: text-bottom;
+    margin: 0 30px 3px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#detail .goods .goods-detail .top .price-name {
+    color: #666;
+    font-size: 14px;
+    vertical-align: text-bottom;
+}
+#detail .goods .goods-detail .top .price {
+    font-size: 14px;
+    color: #666;
+    vertical-align: text-bottom;
+    text-decoration: line-through;
+}
+#detail .goods .goods-detail .middle .lj {
+    display: inline-block;
+    height: 24px;
+    min-width: 120px;
+    background: url(https://www.ttcj.tv/css/pc/images/goods_detail/lj_bg.png);
+    background-repeat: no-repeat;
+    background-position: 4px;
+    padding-left: 45px;
+    color: red;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 25px;
+    font-family: "Arial Bold";
+}
+#detail .goods .goods-detail .middle .alllj {
+    display: inline-block;
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+#detail .goods .taste {
+    margin-top: 20px;
+    position: relative;
+}
+.goods .prefix {
+    color: #666;
+    margin-right: 32px;
+    font-size: 16px;
+    
+}
+.goods .taste>span {
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+.goods .taste ul {
+    vertical-align: middle;
+    width: 630px;
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+.goods .taste ul li {
+    display: inline-block;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid #bbc1ce;
+    border-radius: 20px;
+    padding: 0 14px;
+    margin-right: 17px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #535353;
+}
+.goods .taste ul .active {
+    border-color: #f33047;
+    color: #f33047;
+}
+.goods .distribution {
+    margin-top: 20px;
+}
+.goods .distribution .price {
+    color: #000;
+    font-size: 16px;
+}
+.goods .distribution p {
+    margin-left: 70px;
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+.goods .distribution p .special {
+    color: red;
+}
+.goods .distribution p {
+    color: #7a7a7a;
+    font-size: 16px;
+}
+.goods .number {
+    margin-top: 20px;
+}
+.goods .number .prefix {
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+}
+.goods .number .minus {
+    background: #f9f9f9;
+    border: 2px solid #bdc2cf;
+    line-height: 0;
+    outline: none;
+    padding-bottom: 3px;
+}
+.goods .number .circle {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+}
+.goods .number .minus .inner {
+    display: inline-block;
+    width: 14px;
+    height: 2px;
+    background: #bdc2cf;
+}
+.goods .number .number-item {
+    margin: 0 23px 0 23px;
+    font-size: 18px;
+    color: #585858;
+    text-align: center;
+    border: 0;
+    box-sizing: border-box;
+    width: 35px;
+}
+.goods .number .add {
+    background: #fff;
+    border: 2px solid red;
+    color: red;
+    font-size: 30px;
+    line-height: 30px;
+    outline: none;
+}
+.goods .buy {
+    margin-top: 20px;
+}
+.goods .buy .buynow {
+    margin-left: 68px;
+    border: none;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 20px;
+    background: #f33047;
+    color: #fff;
+    width: 150px;
+    outline: none;
+    font-size: 20px;
+}
+.goods .addcart {
+    margin-left: 40px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #f33047;
+    border-radius: 20px;
+    color: #f33047;
+    width: 150px;
+    background: url(https://www.ttcj.tv/css/pc/images/goods_detail/cart_icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding-left: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

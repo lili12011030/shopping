@@ -1,0 +1,184 @@
+header {
+    width: 100%;
+    height: 100px;
+}
+header .logo{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+header .logo img{
+    width: 200px;
+    height: 100px;
+}
+#main{
+    width:100%;
+    height: 500px;
+    border: 1px solid #ffddd9;
+    background-color: #ffddd9;
+    box-sizing: border-box;
+}
+#main .connect{
+    width: 1200px;
+    height: 440px;
+    margin: 30px auto;
+}
+#main .connect .banner{
+    margin: 10px 130px 30px 134px;
+    float: left;
+    vertical-align: middle;
+}
+#main .connect .logbar{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background: #fff;
+    position: relative;
+}
+#main .connect .logbar .logbar-top{
+    width: 380px;
+    height: 60px;
+    border-bottom:1px solid #e2e6ef; 
+}
+#main .connect .logbar .logbar-top li{
+    width: 155px;
+    height: 60px;
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 60px;
+    box-sizing: border-box;
+}
+#main .connect .logbar .logbar-top li.active{
+    color: #4185f4;
+    border-bottom: 3px solid #4185f4;
+}
+#main .connect .logbar .logbar-top li:hover{
+        color: #4185f4;
+        border-bottom: 3px solid #4185f4;
+}
+
+#main .connect .logbar .input-bar1{
+    width: 380px;
+    height: 225px;
+} 
+#main .connect .logbar .input-bar1 .bar1-ipt{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #d1d5de;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+#main .connect .logbar .input-bar1 .pwd-ipt{   
+    margin-top: 22px;
+}
+#main .connect .logbar .input-bar1 .bar1-ipt>input{
+    width: 215px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#main .connect .logbar .input-bar1 .btn-ipt{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #d1d5de;
+    border-radius: 30px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: #BABABA;
+    color: #fff;
+    font-family: "微软雅黑 Regular";
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+}
+#main .connect .logbar .input-bar1 .erro-msg{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #f33047;
+}
+#main .connect .logbar .input-bar2{
+    width: 380px;
+    height: 220px;
+    padding-top:5px; 
+    display: none;
+} 
+#main .connect .logbar .input-bar2 .bar2-ipt{
+    width:100%;
+}
+#main .connect .logbar .input-bar2 .bar2-ipt input{
+    width: 248px;
+    height: 38px;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    border:  1px solid #d1d5de;
+    outline: none;
+    text-indent: 10px;
+}
+#main .connect .logbar .input-bar2 .bar2-ipt input.btn-ipt{
+    margin: 0 auto;
+}
+#main .connect .logbar .input-bar2 .erro-msg{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #f33047;
+}
+#main .connect .logbar .btn-group {
+    width: 300px;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 22px;
+}
+#main .connect .logbar .btn-group .abar{
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+#main .connect .logbar .btn-group .abar a:nth-child(1){
+    font-size: 14px;
+    float: left;
+    text-decoration: none;
+    color: #333333;
+}
+#main .connect .logbar .btn-group .abar a:nth-child(1):hover{
+    color: #4185f4;
+}
+
+#main .connect .logbar .btn-group .abar a:nth-child(2){
+    font-size: 14px;
+    float: right;
+    text-decoration: none;
+    color: #4185f4;
+}
+
+
+
+
+
+
+
+
+

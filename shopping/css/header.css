@@ -1,0 +1,314 @@
+.margin{
+    width:1200px;
+    margin: 0 auto; 
+}
+.shopNav-A{
+    width: 100%;
+    height: 26px;
+    background: #F4F4F4;
+}
+.shopNav-A .shoptop{
+    text-align: right;
+}
+.shopNav-A .shoptop a{
+    text-decoration: none;
+    color: #666666;
+    padding: 0 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    line-height: 26px;
+    font-size: 14px;
+}
+.shopNav-A .shoptop a .icon img{
+    width: 10px;
+    position: absolute;
+    left:6px;
+    top:5px;
+}
+.shopNav-b{
+    overflow: hidden;
+    height: 90px;
+}
+.shopNav-b .logo{
+margin: 0 40px;
+float: left;
+}
+.shopNav-b .logo img{
+    width: 110px;
+}
+.shopNav-b .tv{
+    float: left;
+    margin-top: 15px; 
+}
+.shopNav-b .tv a{
+    width: 272px;
+    display: block;
+    
+    
+}
+.shopNav-b .tv .tv-left{
+    position: relative;
+    border: 2px solid #4185f4;
+    margin-right:10px;
+    width: 120px;
+    height: 66px;
+    float: left;
+}
+.shopNav-b .tv .tv-left img{
+    width: 100%;
+    height: 100%;
+}
+.shopNav-b .tv .tv-left .tv-icon{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.6);
+}
+.shopNav-b .tv .tv-left .tv-icon .tv-yuan{
+    color: #fff;
+    font-size: 13px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-left: 15px;
+    opacity: 0.6;
+}
+.shopNav-b .tv .tv-left .tv-icon .tv-yuan::before{
+    content: "";
+    width: 0;height: 0;
+    display: block;
+	border-left:13px solid  #fff;
+	border-top: 7px solid rgba(0,0,0,0.1);
+    border-bottom: 7px solid rgba(0,0,0,0.1);
+}
+.shopNav-b .tv .tv-right{
+    float: left;
+    width: 114px;
+    height: 70px;
+}
+.shopNav-b .tv .tv-right p{
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.shopNav-b .tv .tv-right p span{
+    background: #f33647;
+    color: #ffffff;
+    margin: 5px;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+.shopNav-b .tv .tv-right p span.dian{
+    display:inline-block;
+    width: 4px;
+    height: 4px;
+    padding:0;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+.shopNav-b .tv .tv-right p.navB2_ps{
+    color: #f33647;
+    font: 16px/1  "";  
+}
+.shopNav-b .serch{
+    margin-left: 70px;
+    width: 438px;
+    position: relative;
+    float: left;
+}
+.shopNav-b .serch .serch-top{
+    border: 2px solid #4386F4;
+    width: 100%;
+    margin: 20px auto;
+    height: 40px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.shopNav-b .serch .serch-top input{
+    border: none;
+    float: left;
+    box-shadow: none;
+    height: 40px;
+    margin-top: -2px;
+    border-radius: 50% 0 0 50%;
+    padding-right: 30px;
+    font-size: 16px;
+    width: 397px;
+}
+.shopNav-b .serch .serch-top .guanbi{
+    display: block;
+    font-size: 18px;
+    color: #666666;
+    float: left;
+    width: 13%;
+    line-height: 36px;
+    position: absolute;
+    top: 30px;
+    right: 4px;
+}
+.shopNav-b .serch .serch-top .chazhao{
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    font-size: 24px;
+    color: #4185F4;
+    line-height: 38px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.shopNav-b .serch .serch-buttom{
+    margin: -14px auto;
+    margin-left: 14px;
+}
+.shopNav-b .serch .serch-buttom a{
+    color: #848484;
+    margin-left: 5px;
+}
+
+.shopNav-b .shopcar{
+    float: left;
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 20px; 
+}
+.shopNav-b .shopcar a{
+    color: #666;
+    font: 16px "";
+}
+.shopNav-b .shopcar .scar img{
+    width: 26px;
+    height: 26px;
+}
+.shopNav-b .shopcar .yuan{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background: red;
+    display: inline-block;
+    text-align: center;
+    font:16px/30px "";  
+}
+
+
+.shopNav-c{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #4185F4;
+}
+.shopNav-c .shopNav-c-c{
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+.shopNav-c .shopNav-c-c a.daohang{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    margin-left: 58px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    float: left;
+}
+.shopNav-c .shopNav-c-c a.allShop{
+    background: #4185F4;
+    color: #fff;
+    width: 190px;
+    margin-left: 0;
+}
+.shopNav-c .shopNav-c-c li.shopte{
+    position: relative;
+}
+
+/* 二级菜单 */
+.shopNav-c .shopNav-c-c li.shopte>ul{
+    display: none;
+    position: absolute;
+    width: 190px;
+    left: 0;
+    top: 41px;
+    z-index: 10;
+    border: 1px solid #e2e6ef;
+    background: #fff;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.shopNav-c .shopNav-c-c li.shopte:hover>ul{
+    display: block;
+}
+.shopNav-c .shopNav-c-c li.shopte ul .shop2{
+    height: 44px;
+    border: 1px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+}
+.shopNav-c .shopNav-c-c li.shopte ul .shop2:hover{
+    border: 1px solid #e2e6ef;
+    border-right: 1px solid #fff;
+    border-left: 4px solid #4185f4;
+}
+
+.shopNav-c .shopNav-c-c .shop2 .shop3{
+    position: absolute;
+    left: 189px;
+    border: 1px solid #e2e6ef;
+    top: -1px;
+    width: 498px;
+    z-index: 999;
+    background: #fff;
+    height: 300px;
+    display: none;
+    justify-content:space-around;
+}
+/* 三级菜单 */
+.shopNav-c .shopNav-c-c li.shopte ul .shop2:hover .shop3{
+    display: flex;
+}
+.shopNav-c .shopNav-c-c .shop2 .shop3 dl{
+    flex: 1;
+    width: 150px;
+    margin: 10px;
+    text-indent: 5px;
+}
+.shopNav-c .shopNav-c-c .shop2 .shop3 dl dt{
+    border-bottom: 1px solid #000;
+    font: 16px "";
+}
+.shopNav-c .shopNav-c-c .shop2 .shop3 dl dd{
+    font:14px/2 "";
+}
+
+
+
+
+
