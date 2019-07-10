@@ -272,12 +272,19 @@ float: left;
     border-left: 4px solid transparent;
     box-sizing: border-box;
 }
+.shopNav-c .shopNav-c-c li.shopte ul .shop2>a>span{
+    display: inline-block;
+    margin-left: 66px;
+    
+    font: 16px/44px "";
+}
+
 .shopNav-c .shopNav-c-c li.shopte ul .shop2:hover{
     border: 1px solid #e2e6ef;
     border-right: 1px solid #fff;
     border-left: 4px solid #4185f4;
 }
-
+/* 三级菜单 */
 .shopNav-c .shopNav-c-c .shop2 .shop3{
     position: absolute;
     left: 189px;
@@ -290,7 +297,7 @@ float: left;
     display: none;
     justify-content:space-around;
 }
-/* 三级菜单 */
+
 .shopNav-c .shopNav-c-c li.shopte ul .shop2:hover .shop3{
     display: flex;
 }

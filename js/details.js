@@ -8,11 +8,12 @@ class Deta{
     }
     init(){
         this.goods=localStorage.getItem("goods");
-        console.log(this.goods)
+        
         var that=this;
         ajaxPost(this.url,function(res){
            that.res= JSON.parse(res);
            that.display();
+           
         })
         
     }
@@ -24,7 +25,12 @@ class Deta{
                 str+=`<div class="picture">
                 <div class="box">
                     <img src="${this.res[i].src}" alt="" class="minpig">
+                    <span></span>
                 </div>
+                <div class="bbox">
+                    <img src="${this.res[i].src}" >
+                </div>
+                
             </div>
             <div class="goods">
                 <h3>${this.res[i].name}</h3>
@@ -69,9 +75,12 @@ class Deta{
             }
         }
         
-        str= $(".debox").html()+str;console.log(str)
-        $(".debox").html(str)
-        this.play()
+        str= $(".debox").html()+str;
+        $(".debox").html(str);
+        this.play();
+        this.addevent();
+        new Magnifier()
+        
     }
     play(){
         $(".minus").on("click",function(){
@@ -90,6 +99,41 @@ class Deta{
                 
             }
         })
+    }
+    addevent(){
+        var that=this;
+       
+        $(".addcart").on("click",function(){
+            that.callback()
+        })
+    }
+    callback(){
+        this.goodshop=localStorage.getItem("goodshop");
+            this.onoff=true;
+            if(this.goodshop){
+               this.goodshop=JSON.parse(this.goodshop);
+              
+                for(var i=0;i<this.goodshop.length;i++){
+                    if(this.goodshop[i].id==this.goods){
+
+                        this.goodshop[i].num =parseInt(this.goodshop[i].num)+($(".number-item").val())*1;
+
+                        this.onoff=false;
+                    }
+                }
+                if(this.onoff){
+                    this.goodshop.push({
+                        id:this.goods,
+                        num:$(".number-item").val()
+                    })
+                }
+            }else{
+                this.goodshop=[{
+                    id:this.goods,
+                    num:$(".number-item").val()
+                }];
+            }
+            localStorage.setItem("goodshop",JSON.stringify(this.goodshop))
     }
 }
 new Deta();

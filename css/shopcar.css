@@ -1,0 +1,119 @@
+#warp .margin{
+    width:1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+.cart-stage {
+    height: 130px;
+    margin: 0 auto;
+}
+.cart-stage-logo {
+    float: left;
+    width: 220px;
+    height: 80px;
+    background: url(https://www.ttcj.tv/css/pc/images/logo.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.cart-stage-cur {
+    float: right;
+    background: url(https://www.ttcj.tv/css/pc/images/cart/stage1.png);
+    background-repeat: no-repeat;
+    width: 823px;
+    height: 52px;
+    margin-top: 28px;
+    position: relative;
+    margin-right: 6px;
+}
+.stage {
+    position: absolute;
+    top: 32px;
+    font-size: 16px;
+    float: left;
+}
+.stage1 {
+    color: #4185f4;
+    left: -30px;
+}
+.stage2 {
+    left: 210px;
+    color: #ccc;
+}
+.stage3 {
+    color: #ccc;
+    left: 452px;
+}
+.stage4 {
+    left: 695px;
+    color: #ccc;
+}
+#warp p.black{
+    display: block;
+    font: 16px/2 "";
+    margin: 10px;
+    margin-left: 20px;
+}
+#warp p.black a{
+    color: #4185f4;
+}
+table{
+    width:900px; 
+   
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+table thead{
+    border: 1px solid #999999;
+    background: #eee;
+}
+table thead tr{
+    height: 50px;
+}
+table .kong{
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+table .kong p.tet{
+    font-size: 18px;
+    color: #666666;
+    margin-top: 10px;
+}
+table .kong>p {
+    font-size: 16px;
+    color: #999999;
+}
+table tbody img{
+    
+    height: 100px;
+    display: inline-block;
+}
+table tbody tr{
+    height: 100px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+table tbody tr td .danxuan{
+   margin-left: 20px;
+}
+table tfoot{
+    border: 1px solid #666666;
+}
+table tfoot tr{
+     text-align:center;
+     height: 50px;
+     background: #eee;
+}
+table tfoot tr td:nth-child(2) span{
+    color: red;
+    border: 1px solid red;
+    width: 100px;
+    height: 30px;
+    display: block;
+    font: 16px/30px "";
+}
+
+
+

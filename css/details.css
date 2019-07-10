@@ -15,6 +15,8 @@
     position: relative;
     float: left;
 }
+
+
 #detail .picture .box{
     position: relative;
     width: 440px;
@@ -27,6 +29,33 @@
     width: 100%;
     height: 100%;
 }
+#detail .picture .box span{
+    position: absolute;
+    left:0;top:0;
+    background: rgba(200,200,200,0.6);
+    display: none;
+}
+#detail .picture .bbox{
+    width:400px;
+    height:300px;
+    position: absolute;
+    left:500px;top:100px;
+    overflow: hidden;
+    display: none;
+    z-index: 3;;
+}
+#detail .picture .bbox img{
+    width: 1200px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
 #detail .picture .main .minpig{
     width: 438px;
     height: 438px;
