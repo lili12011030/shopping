@@ -64,11 +64,11 @@ class Load{
     constructor(){
         this.user=$("#user1").val();
         this.pswd=$("#paworld1").val();
-        console.log(1)
+        
         this.init();
     }
     init(){
-        console.log(1)
+       
         var check = localStorage.getItem("check")?JSON.parse(localStorage.getItem("check")) : [];;
         for(var i=0;i<check.length;i++){
             if(check[i].phone == this.user && check[i].password == this.pswd){
@@ -83,13 +83,13 @@ class Load{
                 return;
             }
         }
-        console.log(1)
+        
         $(".input-bar1").find($(".erro-msg")).html("用户名错误");
     }
 }
 $(".btn1").on("click",function(){
     if(btn1onoff){
-        console.log(1)
+        
         new Load();
     }   
 })

@@ -123,10 +123,11 @@
     overflow: hidden;
 }
 #shopbox .sellwell .sellbottom .pic img{
-    position: relative;
+    position: absolute;
     z-index: 2;
     width: 100%;
 }
+
 #shopbox .sellwell .sellbottom h5{
     display: block;
     line-height: 24px;
@@ -170,16 +171,17 @@
     overflow: hidden;
     position: relative;
     width: 896px;
+    height: 320px;
 }
 #shopbox .sellwell .sellbottom .right-sell .sellbox .tempwarp .sell-list{
     width: 4256px;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     padding: 0px;
     margin: 0px;
 }
 .sellwell .right-sell .sellbox .tempwarp .sell-list li{
-    display: inline;
+    display: block;
     border: 1px solid #E1E8F0;
     box-sizing: content-box ;
     margin-left: -1px;

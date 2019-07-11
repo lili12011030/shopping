@@ -88,6 +88,7 @@ class Car{
         localStorage.setItem("goodshop",JSON.stringify(this.goodshop));
          
     }
+    // 计算总金额
     alljia(){
         var a=0;
         // 总价

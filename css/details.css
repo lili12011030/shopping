@@ -24,6 +24,15 @@
     box-sizing: border-box;
     border: 1px solid #e2e6ef;
 }
+#detail .picture .box p{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 440px;
+    z-index: 22;
+}
+
 #detail .picture .box img{
     display: block;
     width: 100%;

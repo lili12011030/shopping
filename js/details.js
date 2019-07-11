@@ -23,13 +23,15 @@ class Deta{
             if(this.res[i].id==this.goods){
                 
                 str+=`<div class="picture">
-                <div class="box">
-                    <img src="${this.res[i].src}" alt="" class="minpig">
-                    <span></span>
-                </div>
-                <div class="bbox">
-                    <img src="${this.res[i].src}" >
-                </div>
+                
+                    <div class="box">
+                        <img src="${this.res[i].src}" alt="" class="minpig">
+                        <span></span>
+                        <p></p>
+                    </div>
+                    <div class="bbox">
+                         <img src="${this.res[i].src}" >
+                    </div>
                 
             </div>
             <div class="goods">

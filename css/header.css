@@ -155,6 +155,8 @@ float: left;
     padding-right: 30px;
     font-size: 16px;
     width: 397px;
+    outline: none;
+    text-indent: 20px;
 }
 .shopNav-b .serch .serch-top .guanbi{
     display: block;
@@ -180,6 +182,7 @@ float: left;
     right: 0;
     margin-top: 30px;
     margin-right: 20px;
+    background: url(../img/2.jpg) no-repeat -5px;
 }
 .shopNav-b .serch .serch-buttom{
     margin: -14px auto;
@@ -240,6 +243,13 @@ float: left;
     position: relative;
     float: left;
 }
+.shopNav-c .shopNav-c-c a.daohang:hover{
+    color:#4185F4; 
+}
+.shopNav-c .shopNav-c-c a.allShop:hover{
+    color:#fff; 
+}
+
 .shopNav-c .shopNav-c-c a.allShop{
     background: #4185F4;
     color: #fff;

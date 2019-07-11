@@ -36,8 +36,11 @@ Magnifier.prototype.out=function(){
 	this.span.style.display="none";
 }
 Magnifier.prototype.move=function(e){
-	var l=e.clientX-this.sbox.offsetLeft-this.span.offsetWidth/2;
-	var t=e.clientY-this.sbox.offsetTop-this.span.offsetHeight/2;
+	var l = Math.round(e.offsetX - this.span.offsetWidth/2);
+    var t = Math.round(e.offsetY - this.span.offsetHeight/2);
+
+	// var l=e.clientX-this.sbox.offsetLeft-this.span.offsetWidth/2;
+	// var t=e.clientY-this.sbox.offsetTop-this.span.offsetHeight/2;
 	
 	if( l<0)l=0;
 	if(t<0)t=0;
