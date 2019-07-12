@@ -72,7 +72,9 @@ class Load{
         var check = localStorage.getItem("check")?JSON.parse(localStorage.getItem("check")) : [];;
         for(var i=0;i<check.length;i++){
             if(check[i].phone == this.user && check[i].password == this.pswd){
+                location.href="http://localhost/shopping/index.html";
                 $(".input-bar1").find($(".erro-msg")).html("登陆成功");
+                
                 return;
             }
            
